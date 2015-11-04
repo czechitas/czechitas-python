@@ -1,0 +1,4 @@
+ping
+red
+blue
+green
