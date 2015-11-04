@@ -1,0 +1,1 @@
+# Python training for Czechitas
