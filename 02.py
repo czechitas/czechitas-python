@@ -2,21 +2,26 @@
 colors = ["pink", "blue", "red", "green"]
 
 # Print 2nd item in array
-print colors[1]
+print (colors[1])
 
 # Variable
 color = 2
 # Print variable value
-print color
+print (color)
 # Print 3rd item in array
-print colors[color]
+print (colors[color])
 
 # Add new item to first position
 colors.insert(0, "orange")
 # Print 3rd item in array
 # https://docs.python.org/3/library/string.html#formatspec
-print "3rd color is {0}".format(colors[color])
+print ("3rd color is {0}".format(colors[color]))
 
+# Reverse item order in array
+colors.reverse()
+
+# Delete third item in array
+del colors[2]
 
 # Exercise
 # 1. Open documentation https://docs.python.org/2/library/array.html and find how to 

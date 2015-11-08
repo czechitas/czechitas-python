@@ -6,11 +6,11 @@ print colors[2][1]
 
 # Print all colors in list
 for color in colors:
-	print color
+	print (color)
 	
 for color in colors:
 	# Documentation: https://docs.python.org/3/library/string.html#formatexamples
-	print "{0}:x:{1:x}".format(color[0], color[1])
+	print ("{0}:x:{1:x}".format(color[0], color[1]))
 
 # Exercise
 # 1. Create following output, try two ways (special characters, nested loops)
