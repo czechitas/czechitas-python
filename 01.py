@@ -9,4 +9,4 @@ print("Hello world!")
 # 4. Try to put " inside ""
 # 5. Try print (1+1)
 # 6. Try print ("My name is " + "Stepan")?
-# 7. Try print ("Hello" * 5)  
+# 7. Try print ("Hello" * 5)

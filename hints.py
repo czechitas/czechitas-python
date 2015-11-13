@@ -54,9 +54,10 @@ for color in colors:
 	print (printColor(color[0], color[1]))
 	
 # 08.py ----------------------------------------------
-import urllib2
-req = urllib2.Request("http://stepanb-python.azurewebsites.net/")
-resp = urllib2.urlopen(req)
+import urllib.request
+
+req = urllib.request.Request("http://stepanb-python.azurewebsites.net/")
+resp = urllib.request.urlopen(req)
 
 if (resp.getcode() != 200):
     exit()

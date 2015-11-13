@@ -6,4 +6,5 @@ for color in colors:
 	print (color)
 
 # Exercise
-# 1. Print reversed array
+# 1. Add item to array
+# 2. Print reversed array

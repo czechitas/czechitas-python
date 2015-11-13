@@ -4,10 +4,10 @@ name = "Stepan"
 # Print Hi message
 if name == "Stepan":
         print("Hi Stepan!")
-    elif name == "Eva":
-            print("Hi Eva!")
-        else:
-                print("Hi friend!")
+elif name == "Eva":
+        print("Hi Eva!")
+else:
+        print("Hi friend!")
 
 # Array (list) of colors
 colors = [["pink", 0xFF1493], ["blue", 0x0000FF], ["red", 0xFF0000], ["green", 0x00FF00]]

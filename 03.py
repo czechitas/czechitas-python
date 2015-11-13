@@ -10,4 +10,5 @@ except:
 	print ("ERROR: item doesn't exists!")
 	
 # Exercise
-# 1. Divide by 0
+# 1. Try same codou without try and except (delete print error too)
+# 2. Divide by 0
