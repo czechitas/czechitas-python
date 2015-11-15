@@ -15,7 +15,7 @@ print (colors[color])
 colors.insert(0, "orange")
 # Print 3rd item in array
 # https://docs.python.org/3/library/string.html#formatspec
-print ("3rd color is {0}".format(colors[color]))
+print ("1st color is {0} and 2nd is {1}".format(colors[0], colors[1]))
 
 # Reverse item order in array
 colors.reverse()

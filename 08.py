@@ -1,10 +1,21 @@
-# Import time library
-# https://docs.python.org/2/library/time.html
+# Import libraries
+# https://docs.python.org/3/library/time.html
 import time
-
+# https://docs.python.org/3/library/math.html 
+import math
 # Print local time
-print time.strftime("%d.%m.%Y %H:%M:%S", time.localtime())
+print (time.strftime("%d.%m.%Y %H:%M:%S", time.localtime()))
 
+# Pythagorean theorem
+# https://en.wikipedia.org/wiki/Pythagorean_theorem
+# calcultes hypotenuse
+# input are legs
+def calculateHypotenuse(a, b):
+	c = math.sqrt(a^2 + b^2)
+	return c
+	
+c1 = calculateHypotenuse(1, 2)
+print(c1)
 
 # Excercise
 # 1. Try to move import statement after print function

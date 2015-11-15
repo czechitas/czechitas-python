@@ -10,3 +10,12 @@ IMPORTANT note for Windows users: when installing, do not forget to select "Add 
 
 ## Azure
 If you want to try to create website activate [Azure Free Trial] (https://azure.microsoft.com/en-us/pricing/free-trial/) or Azure for students on [Dreamspark] (https://www.dreamspark.com/).
+
+## Where to learn more
+
+### Books
+[Books at Root.cz] (http://www.root.cz/knihy/oddeleni/vyvoj-a-knihy-pro-vyvojare/)
+
+### Trainings
+[edX] (https://www.edx.org/course?search_query=python)
+[coursera] (https://www.coursera.org/courses?query=python)
