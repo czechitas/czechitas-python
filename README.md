@@ -15,7 +15,9 @@ If you want to try to create website activate [Azure Free Trial] (https://azure.
 
 ### Books
 [Books at Root.cz] (http://www.root.cz/knihy/oddeleni/vyvoj-a-knihy-pro-vyvojare/)
+[Learn python the hard way] (http://learnpythonthehardway.org/book/)
 
 ### Trainings
 [edX] (https://www.edx.org/course?search_query=python)
 [coursera] (https://www.coursera.org/courses?query=python)
+[codeacademy] (https://www.codecademy.com/learn/python)
