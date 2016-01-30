@@ -11,7 +11,7 @@ print (time.strftime("%d.%m.%Y %H:%M:%S", time.localtime()))
 # calcultes hypotenuse
 # input are legs
 def calculateHypotenuse(a, b):
-    c = math.sqrt(a^2 + b^2)
+    c = math.sqrt(a**2 + b**2)
     return c
 
 c1 = calculateHypotenuse(1, 2)
