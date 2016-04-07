@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Python kurz
+Intenzivní kurz Python
 Moduly a práce se soubory
 
 @author: Nasťa
