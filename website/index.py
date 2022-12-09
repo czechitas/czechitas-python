@@ -28,10 +28,10 @@ def application(environ, start_response):
     
     # convert response from JSON to array of dictionaries
     rates = json.loads(content) 
-    # imagine yield as print (very, very simple imagination)
+    # imagine yield as print(very, very simple imagination)
     # https://docs.python.org/2/reference/simple_stmts.html#the-yield-statement
     yield '<h1>CSAS Exchange Rates</h1>'
     yield '<table>\r\n'
     for rate in rates:
-        yield "<tr><td>{0}</td><td align='right'>{1}</td><td align='right'>{2}</td></tr>\r\n".format(rate['shortName'], rate['currBuy'], rate['currSell'])
+        yield f"<tr><td>{rate['shortName']}</td><td align='right'>{rate['currBuy']}</td><td align='right'>{rate['currSell']}</td></tr>\r\n"
     yield '</table>\r\n'

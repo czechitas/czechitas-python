@@ -12,15 +12,15 @@ answers = ["As I see it, yes", "It is certain", "It is decidedly so", "Most like
     "Reply hazy, try again", "Ask again later", "Better not tell you now", "Cannot predict now",
     "Dont count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very doubtful"]
 
-print ('Welcome to Magic 8 Ball!')
-print ('Please ask your question!')
+print('Welcome to Magic 8 Ball!')
+print('Please ask your question!')
 question = input()
 
 play = True
 while play == True:    
     what = random.choice(answers)
-    print ('My answer is: '+ what +'!')
-    print ('If you want to exit, type quit or ask again!')
+    print('My answer is: '+ what +'!')
+    print('If you want to exit, type quit or ask again!')
     question = input()
     if question == 'quit':
         quit = sys.exit("Good bye!")
