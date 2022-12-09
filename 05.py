@@ -7,12 +7,12 @@ colors = [["pink", 0xFF1493],
 
 # first index is rows
 # second index is column
-print (colors[2][1])
+print(colors[2][1])
 
 # Print all colors in list
 # {1:X} prints number in hexadecimal format
 for color in colors:
-    print ("Color {0} is in decimal {1} and hexadecimal 0x{1:06X}.".format(color[0], color[1]))
+    print(f"Color {0} is in decimal {1} and hexadecimal 0x{color[1]:06X}.")
 
 # Exercise
 # 1. Create the following output, try two ways (special characters, nested loops)

@@ -22,7 +22,7 @@ favorite = "blue"
 for color in colors:
     # Check if color is my favorite one
     if color[0] == favorite:
-        print ("I like 0x{0:06X}".format(color[1]))
+        print(f"I like 0x{color[1]:06X}")
 
 # Exercise
 # 1. If the color is not your favorite print a message like this (if-else statement):

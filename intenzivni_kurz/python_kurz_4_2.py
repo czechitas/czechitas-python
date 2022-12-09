@@ -17,8 +17,8 @@ Zaplaťte stravenkami: 6 ks po 74 Kč
 def meal_vouchers(lunch_price, meal_voucher_value):
     meal_voucher_number = int(lunch_price) // int(meal_voucher_value)
     money = int(lunch_price) - (meal_voucher_number * int(meal_voucher_value))
-    print ('Oběd stojí:', lunch_price, 'Kč')
-    print ('Zaplaťte hotově:', money, 'Kč')
-    print ('Zaplaťte stravenkami:', meal_voucher_number, 'ks po', meal_voucher_value, 'Kč')
+    print('Oběd stojí:', lunch_price, 'Kč')
+    print('Zaplaťte hotově:', money, 'Kč')
+    print('Zaplaťte stravenkami:', meal_voucher_number, 'ks po', meal_voucher_value, 'Kč')
 
 meal_vouchers(500, 74)

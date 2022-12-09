@@ -26,9 +26,9 @@ def string_upper_lower(s):
            upper +=1  
         if c.islower():  
            lower +=1    
-    print ("Řetězec: ", s)  
-    print ("Počet velkých písmen: ", upper)  
-    print ("Počet malých písmen: ", lower)  
+    print("Řetězec: ", s)  
+    print("Počet velkých písmen: ", upper)  
+    print("Počet malých písmen: ", lower)  
   
 s = """Byl jeden Řek a ten mi řek, abych mu řek, 
 kolik je v Řecku řeckých řek a já mu řek, 
